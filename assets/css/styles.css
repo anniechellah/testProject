@@ -1,0 +1,73 @@
+#header{
+	align-content: center; 
+    width: 250px;
+    text-align: -webkit-center;
+    margin-left: 450px;
+
+}
+body{
+	font-family: Arial;
+	 background-color: #e6e6ff;
+	 display: block;
+	 font-size: 13px;
+}
+#content-form{
+	    width: 600px;
+    height: 500px;
+    margin-left: 313px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px #888888;
+    background-color: beige;
+    padding-right: 30px;
+}
+#form-element{
+	width: inherit;
+    height: 70px;
+    padding-left: 20px;
+}
+input[id="array-input"]{
+	height: inherit;
+    width: 400px;
+    margin-left: 10px;
+}
+label{
+	height: inherit;
+    width: 150px;
+    float: left;
+    
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    width:auto;
+}
+
+#check-pivot-index{
+	width: 150px;
+    height: 30px;
+    background-color: burlywood;
+    text-align: center;
+    margin-top: 35px;
+    padding-top: 10px;
+    position: absolute;
+    left: 46%;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+#check-pivot-index:hover{
+	background-color:#cc6600;
+	color: white;
+   
+}
+
+a{
+	text-decoration: none;
+}
+.found-pivot-index{
+	background-color: #b3ffd9;
+}
